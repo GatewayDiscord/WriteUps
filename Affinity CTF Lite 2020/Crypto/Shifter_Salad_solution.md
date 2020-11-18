@@ -31,7 +31,7 @@ Now a problem, what to do with the numbers that are found in there, since we do 
 
 AFFCTF{aibceez} . Now you have 2 ways to go about this,either go manually and extract each one or write a script. I will show you both ways.
 
-https://user-images.githubusercontent.com/74470185/99503638-bdb05480-297e-11eb-93fc-525488931aef.png
+![image](https://user-images.githubusercontent.com/74470185/99503638-bdb05480-297e-11eb-93fc-525488931aef.png)
 
 ### MANUALLY
 
