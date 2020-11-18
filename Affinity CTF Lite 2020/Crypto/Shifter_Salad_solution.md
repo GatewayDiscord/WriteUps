@@ -11,6 +11,7 @@ get you to the plaintext.
 
 Since AGHFXK is not the default flag format ( AFFCTF ) we can decipher that right away.
 
+
 A = A = 0 shiftes ( no changes )
 
 F = G --> F in the alphabet is 7th and G is sixth while F is 6th. Following the previous shift and pattern we see that this one is subtracted with -1. So this would be G-1 or 7-1 = 6 or F ( In the A1Z26 alphabet cipher )
@@ -24,6 +25,7 @@ C = F --> F-3 or 6-3 = 3 or C
 X = T --> X-4 or 24-4 = 20  or T
 
 You can do K for yourself.
+
 
 We clearly saw the pattern. Each letter gets subtracted by -1,-2,.. as it goes when converted to the alphabetic value of itself. 
 
@@ -48,6 +50,7 @@ E = E-10 = 5-10 = -5 = Z-5 = 21 = U
 E = E-11 = 5-11 = -6 = Z-6 = T
 
 Z = Z-12 = 26-12 = 14 = N
+
 
 We got UBTTUN. Some may already see it but if you do not circle back to when I said leave the numbers outside since we cannot do anything with them. Let's plock them in here
 
