@@ -61,7 +61,7 @@ AFFCTF{5UB5T1TUT10N}
 Using a script you will save some time but it's an equally good option.
 
 ```python
-def cipher(symbol, shift): // shift for the given alphabet. Can be substituted
+def cipher(symbol, shift): #cipher for alphabet and shift alphabet can be changed
     LETTERS = 'abcdefghijklmnopqrstuvwxyz'
 
     if symbol in LETTERS:
@@ -78,16 +78,18 @@ def cipher(symbol, shift): // shift for the given alphabet. Can be substituted
     return symbol
 
 
-enc = 'aibceez' // cipher 
+enc = 'aibceez' # cipher
 
-dec = [] // store in
+dec = [] # stored string
 
-cnt = 0 // starting 
+cnt = -6 #count as we started from 0 with the AFFCTF
 for c in enc:
-    dec.append(cipher(c, cnt)) / append function for the count
+
+    dec.append(cipher(c, cnt)) # Append to the end result with cypher. Sends the shift and symbol
     cnt -= 1
 
 print("".join(dec))
+
 ```
 
 #### Conclusion
