@@ -1,4 +1,5 @@
-Shifter Salad - Cryptography -> Solve by Sarastro.
+# H1 Shifter Salad 
+Cryptography 10 pts -> Solve by Sarastro.
 
 This CTF is one of the easier CTFs that AFFINITY CTF has presented in its crypto session CTF panel. The name itself suggest that its a shifter and by the challenge we see that we need to find a cipher and decipher it. 
 Shifter + Salad + Cipher is only meant to be a Caeasers Cipher. 
@@ -6,7 +7,7 @@ Shifter + Salad + Cipher is only meant to be a Caeasers Cipher.
 A shifter is really what the name suggests. It shifts the letters. You have a certain pattern or a shift of numbers starting from a specific point and working towards that number in an upper or lesser context. Affecting the cipher will 
 get you to the plaintext. 
 
-AGHFXK{5ai5b1cee10z} - cipher text. 
+*AGHFXK{5ai5b1cee10z}* - cipher text. 
 
 Since AGHFXK is not the default flag format ( AFFCTF ) we can decipher that right away.
 
@@ -26,7 +27,7 @@ AFFCTF{aibceez} . Now you have 2 ways to go about this,either go manually and ex
 
 https://prnt.sc/vl16gw
 
-MANUALLY
+# H3 MANUALLY
 
 A = A-6 = 1(first in the alphabet) - 6 = -5, hmm what do we do here? What would be the -1th letter. The letter -1 from A or the last letter in the alphabet Z. = Z-5 = 26-5 = 21 or U
 I = I-7 = 9-7 = 2 or B
@@ -40,10 +41,11 @@ We got UBTTUN. Some may already see it but if you do not circle back to when I s
 
 AFFCTF{5UB5T1TUT10N}
 
-SCRIPT
+# H3 SCRIPT
 
 Using a script you will save some time but it's an equally good option.
 
+```python
 def cipher(symbol, shift): // shift for the given alphabet. Can be substituted
     LETTERS = 'abcdefghijklmnopqrstuvwxyz'
 
@@ -71,8 +73,8 @@ for c in enc:
     cnt -= 1
 
 print("".join(dec))
+```
 
-
-Conclusion
+# H2 Conclusion
 
 This CTF is very beginner friendly and a good learning experience!
