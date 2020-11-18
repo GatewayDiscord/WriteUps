@@ -1,4 +1,4 @@
-Shifter Salad - Cryptography
+Shifter Salad - Cryptography -> Solve by Sarastro.
 
 This CTF is one of the easier CTFs that AFFINITY CTF has presented in its crypto session CTF panel. The name itself suggest that its a shifter and by the challenge we see that we need to find a cipher and decipher it. 
 Shifter + Salad + Cipher is only meant to be a Caeasers Cipher. 
