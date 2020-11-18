@@ -1,4 +1,4 @@
-# H1 Shifter Salad 
+# Shifter Salad 
 Cryptography 10 pts -> Solve by Sarastro.
 
 This CTF is one of the easier CTFs that AFFINITY CTF has presented in its crypto session CTF panel. The name itself suggest that its a shifter and by the challenge we see that we need to find a cipher and decipher it. 
@@ -27,7 +27,7 @@ AFFCTF{aibceez} . Now you have 2 ways to go about this,either go manually and ex
 
 https://prnt.sc/vl16gw
 
-# H3 MANUALLY
+### MANUALLY
 
 A = A-6 = 1(first in the alphabet) - 6 = -5, hmm what do we do here? What would be the -1th letter. The letter -1 from A or the last letter in the alphabet Z. = Z-5 = 26-5 = 21 or U
 I = I-7 = 9-7 = 2 or B
@@ -41,7 +41,7 @@ We got UBTTUN. Some may already see it but if you do not circle back to when I s
 
 AFFCTF{5UB5T1TUT10N}
 
-# H3 SCRIPT
+### SCRIPT
 
 Using a script you will save some time but it's an equally good option.
 
@@ -75,6 +75,6 @@ for c in enc:
 print("".join(dec))
 ```
 
-# H2 Conclusion
+#### Conclusion
 
 This CTF is very beginner friendly and a good learning experience!
