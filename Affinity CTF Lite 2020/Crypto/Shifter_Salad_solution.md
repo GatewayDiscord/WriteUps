@@ -54,7 +54,7 @@ Z = Z-12 = 26-12 = 14 = N
 
 We got UBTTUN. Some may already see it but if you do not circle back to when I said leave the numbers outside since we cannot do anything with them. Let's plock them in here
 
-AFFCTF{5UB5T1TUT10N}
+```AFFCTF{5UB5T1TUT10N}```
 
 ### SCRIPT
 
