@@ -8,7 +8,7 @@ Now since it is a forensics challenge we thought we would need to check the file
 
 We ploncked it Sonic Visualier to check the frequency waves as well to see if there are any hidden messages but still nothing. 
 
-We continued analyzing it to see if we can gt anything from it and upon seeing the waves, running it through frequency analyzers and similar wave enumeration methods, we got that the message is PSK encrypted.
+We continued analyzing it to see if we could get anything from it and upon seeing the waves, running it through frequency analyzers and similar wave enumeration methods, we got that the message is PSK encrypted.
 
 Eventually getting EssexPSK, a PSK and RTTY reciever that decodes a message, we worked our way towards the flag.
 
