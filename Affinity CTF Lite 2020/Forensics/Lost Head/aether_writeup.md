@@ -12,7 +12,7 @@ We continued analyzing it to see if we could get anything from it and upon seein
 
 Eventually getting EssexPSK, a PSK and RTTY reciever that decodes a message, we worked our way towards the flag.
 
-Downloading it we came across a problem. It only red through the microphone, so we made a vbcable virtual connection for my headset to act as a microphone in the program. We also had to change up the frequency a bit to match the RX return value.
+Downloading it we came across a problem. It only read through the microphone, so we made a vbcable virtual connection for my headset to act as a microphone in the program. We also had to change up the frequency a bit to match the RX return value.
 
 ![Screenshot_1](https://user-images.githubusercontent.com/74470185/99834180-77681a80-2b63-11eb-909e-af67a9c8f5c6.png)
 
